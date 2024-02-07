@@ -2,8 +2,8 @@ import prisma from "@/lib/prisma";
 
 import { NextResponse, NextRequest } from "next/server";
 
-export async function GET(request: Request) {
-  const a = await prisma.products.createMany({
+export async function GET(request) {
+  /* const a = await prisma.products.createMany({
     data: [
       {
         descripcion: "xxxxxxxxxxxxxxxxx",
@@ -32,7 +32,7 @@ export async function GET(request: Request) {
       },
     ],
   });
-  console.log(a);
+  console.log(a); */
 
   return NextResponse.json({ msg: "Seed Ejecutado" }, { status: 201 });
 }
