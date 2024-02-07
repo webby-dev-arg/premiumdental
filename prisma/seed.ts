@@ -8,11 +8,13 @@ async function main() {
         name: "asdfads",
         descripcion: "ddd",
         presentacion: "dfdf",
+        imageUrls: "dfdf",
       },
       {
         name: "asdfads",
         descripcion: "OOOOOOOOOOOOOOOOO",
         presentacion: "dfdf",
+        imageUrls: "dfdf",
       },
     ],
   });
